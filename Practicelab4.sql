@@ -1,0 +1,30 @@
+USE QlyCungcapPhutung;
+
+-- 1.Phụ tùng nào có màu sắc giống màu sắc của phụ tùng có mã P0003.
+-- 2. Nhà cung cấp nào ở cùng thành phố với nhà cung cấp có mã số N0001
+-- 3. Nhà cung cấp nào đã cung cấp phụ tùng có khối lượng lớn hơn khốilượng của phụ
+-- tùng mã số P0004. Loại bỏ kết quả trùng.
+-- 4.Phụ tùng nào được cung cấp bởi nhà cung cấp có mã số N0002.(Sử dụng IN, ANY)
+-- 5. Phụ tùng nào có khối lượng lớn hơn ít nhất một phụ tùng nào đó ở thành phố 'Ho Chi 
+-- Minh'. (Sử dụng ANY)
+-- 6. Phụ tùng nào có khối lượng lớn hơn tất cả khối lượng của phụ tùng ở thành phố 'Ha 
+-- Noi'. (Sử dụng >ALL)
+-- 7.Phụ tùng nào (MaPT, TenPT, Khoiluong) nằm trong 3 mức 'khối lượng' cao nhất
+-- 8. Mỗi nhà cung cấp đã cung cấp bao nhiêu mã phụ tùng. Hiển thị mã nhà cung cấp 
+-- (MaNcc), tên (TenNcc), số lượng phụ tùng đã cung cấp. (Sử dụng truy vấn con trong 
+-- mệnh đề FROM)
+-- 9. Phụ tùng màu đỏ (mausac= 'Do') nào được cung cấp với tổng số lượng nhiều hơn 400.
+-- (Sử dụng truy vấn con trong mệnh đề FROM).
+-- 10.Ứng với mỗi màu sắc, phụ tùng nào có khối lượng lớn nhất. (Sử dụng truy vấn con 
+-- trong mệnh đề FROM).
+-- 11.Phụ tùng nào có khối lượng lớn nhất.
+-- 12.Phụ tùng nào có khối lượng lớn hơn khối lượng trung bình của tất cả các phụ tùng.
+-- 13.Trong cùng một thành phố, phụ tùng nào có khối lượng lớn hơn khối lượng trung 
+-- bình của tất cả các phụ tùng thuộc thành phố này
+-- 14.Nhà cung cấp nào (MaNcc, TenNcc, Thanhpho, NgayTL) có cung cấp sản phẩm 
+-- (Sử dụng toán tử EXISTS)
+-- 15.Phụ tùng nào được cung cấp bởi nhà cung cấp có mã số N0002 (Sử dụng toán tử
+-- EXISTS)
+-- 16.Nhà cung cấp nào có cung cấp tất cả các mã phụ tùng của thành phố Ha Noi.
+-- 17.Nhà cung cấp nào ở thành phố 'Ho Chi Minh' có cung cấp tất cả các mã phụ tùng 
+-- màu vàng (mausac= 'Vang').
